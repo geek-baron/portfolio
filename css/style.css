@@ -407,11 +407,25 @@ div.goto-top i:hover {
 @media screen and (max-width: 800px) {
   header .content ul {
     position: absolute;
-    right: 20px;
+    right: 30px;
   }
 }
 @media screen and (max-width: 560px) {
   header .content ul {
     display: none;
   }
+  header .content span.logo {
+    margin-left: 50%;
+  }
+  footer span {
+    margin-left: 35%;
+  }
 }
+@media screen and (max-width: 375px) {
+  footer span {
+    margin-left: 28%;
+  }
+}
+
+
+
